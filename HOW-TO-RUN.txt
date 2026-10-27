@@ -1,0 +1,23 @@
+HOW TO RUN (simple)  -  Kisan Dost
+==================================
+Easiest: do NOT use start.bat. Use the 3 steps below. Windows does not block these.
+
+1) Open the folder "kisan-dost". Click the address bar at the top of the window,
+   type  cmd  and press Enter. (A black window opens in the right folder.)
+2) Type these, one at a time, press Enter after each:
+       pip install -r requirements.txt
+       python server.py
+   (If "python" is not found, try  py server.py  - or install Python from python.org and tick "Add Python to PATH".)
+3) Open your browser at   http://localhost:5000
+4) In the left sidebar tap  "AI Setup (paste key)"  ->  paste your key  ->  Save key.   Done.
+
+FREE key (Groq, no card): https://console.groq.com/keys -> sign up -> Create API Key (starts gsk_).
+Grok from xAI (key starts xai-) works too but is PAID.
+
+If Windows says "Windows protected your PC" about start.bat:
+  - click "More info" -> "Run anyway", OR
+  - before extracting the zip: right-click the zip -> Properties -> tick "Unblock" -> OK, then extract again.
+If antivirus or SmartScreen still blocks any file, use the steps above instead.
+
+Leave the AI box in the sidebar on "Auto (recommended)".
+The key is saved in the file .env next to server.py. Never share that file.

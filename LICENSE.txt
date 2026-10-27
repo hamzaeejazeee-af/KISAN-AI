@@ -1,0 +1,6 @@
+Kisan Dost - AI Agriculture Advisory Assistant
+A project by Hamza Ejaz
+
+Copyright (c) 2026 Hamza Ejaz. All rights reserved.
+
+No part of this project may be copied, modified, distributed or used commercially without written permission from the author.
